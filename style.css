@@ -1,0 +1,160 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(244,244,228);
+}
+nav {
+  background-color: rgb(68,148,156);
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+nav a {
+  float: left;
+  color: rgb(244,244,228);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+nav a:hover, .dropbttn:hover, #modalBttn:hover {
+  background-color: rgb(132,195,200);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(132,195,200);
+}
+
+.arrow {
+color: rgb(132,195,200);
+transform: rotate(90deg);
+}
+
+.dropdown {
+  overflow:hidden;
+  float: left;
+}
+
+.dropbttn, #modalBttn {
+  font-size: 17px;
+  background-color: rgb(68,148,156);
+  padding: 14px 16px;
+  border: none;
+  color: rgb(244,244,228);
+}
+
+.dropdown {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: rgb(244,244,228);
+  background-color: rgb(68,148,156);
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  max-width: 500px;
+  padding: 7px 16px;
+  background-color: rgb(68,148,156);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  overflow: auto;
+  
+  padding: auto;
+  
+}
+
+.modal-content {
+  background-color: rgb(249,217,213);
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.modal-content a {
+  background-color: rgb(214, 108, 108);
+  padding: auto;
+  align-items: center;
+}
+
+#close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: double 3px rgb(200, 153, 132);
+  background-color: aliceblue;
+  padding: 20px;
+  max-width: fit-content;
+  margin: 0 auto;
+  border-radius: 3px;
+  
+}
+
+#click-handler, #autoClicker-handler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bttns{
+  border-radius: 3px;
+  color: rgb(254,255,246);
+  border: none;
+  height: 30px;
+}
+
+#donut {
+  background-color: rgb(249,217,213);
+  
+}
+
+#auto-clicker {
+color: rgb(170, 132, 200);
+border: solid .5px
+}
+
+#reset {
+  margin-top: 20px;
+  background-color: rgb(214, 108, 108);
+}
+
+#donut-count, #auto-clicker-count {
+  border: solid 2px rgb(132,195,200);
+  border-radius: 3px;
+  padding: 5px;
+  width: fit-content;
+  color: rgba(0, 0, 0, 0.229);
+}

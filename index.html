@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Donut Clicker</title>
+</head>
+
+<body>
+  <header class="header">
+      <nav>
+        <a href="#home">Home </a>
+        <div class="dropdown">
+          <button class="dropbttn">Fred Baking Co <span class="arrow"> &#10095; </span></button>
+            <div class="dropdown-content">
+              <p>Fred the Baker is tired of making real donuts and is ready to retire.
+                He needs our help to keep his love of donuts alive. He wants you to 
+                create a game that uses button clicks to create virtual donuts for 
+                the world to enjoy. It's always "Time to make the Donuts"</p>
+            </div>
+        </div>
+        <a id="inspo" href="https://orteil.dashnet.org/cookieclicker/">Game Inspiration</a>
+        <button id="modalBttn">Developer</button>
+        <div id="modal-container" class="modal">
+          <div class="modal-content">
+            <span id="close">&times;</span>
+            <a href="https://www.linkedin.com/in/quanabrown/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/QSbrown97" target="_blank">Github</a>
+            <a href="https://qsbrown97.github.io/QuanaBrown.github.io/index.html" target="_blank">Portfolio</a>
+            <a href="mailto:qsbrown97@gmail.com">E-mail</a>
+            <p><br><br>Hi! My name is Quana Brown and I'm an ambitious professional, highly experienced in team building and goal oriented 
+              environments with a strong creative background. Excited to apply recent studies
+              in Software Development with strategic direction, project management, and 
+              critical thinking skills to construct products that are efficient and useful to 
+              meet desired expectations and needs.</p>
+          </div>
+        </div>
+      </nav>
+      <h1>Donut Clicker</h1>
+  </header>
+
+  <main>
+    <section id="click-handler">
+    <button id="donut" class="bttns">Make Donut</button>
+    <p id="donut-count">Amount of Donuts: 0</p>
+    </section>
+
+    <section id="autoClicker-handler">
+      <button id="auto-clicker" class="bttns" disabled>Purchase Auto-Clicker: 100 Donuts</button>
+      <p id="auto-clicker-count">Amount of Auto-Clickers: 0</p>
+    </section>
+
+    <section id="reset-handler">
+      <button id="reset" class="bttns">Reset Game</button>
+    </section>
+  </main>
+  
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
