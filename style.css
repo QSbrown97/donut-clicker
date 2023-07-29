@@ -187,7 +187,7 @@ main {
 #auto-clicker {
 color: rgb(154, 106, 190);
 border: solid .5px;
-width: 200px
+width: 250px
 }
 
 #reset {
@@ -280,7 +280,7 @@ footer {
   }
 
   #auto-clicker {
-    width: 150px;
+    width: 200px;
   }
 
   .bttns {
