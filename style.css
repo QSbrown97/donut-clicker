@@ -177,6 +177,7 @@ main {
   border: none;
   height: 50px;
   width: 150px;
+  touch-action: manipulation;
 }
 
 #donut {
@@ -287,6 +288,7 @@ footer {
     font-size: 16px;
     height: 40px;
     width: 120px;
+    touch-action: manipulation;
   }
 
   footer {
